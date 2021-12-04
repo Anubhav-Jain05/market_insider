@@ -222,7 +222,7 @@
    document.getElementById("namee20").innerHTML=names[19]
   
 
-   
+   header("Access-Control-Allow-Origin: *");
    
  }).catch(err => {
    console.log(err);
@@ -235,7 +235,9 @@
            xhr.onerror = reject;
            xhr.send();
        });
+   header("Access-Control-Allow-Origin: *");
  }
+  header("Access-Control-Allow-Origin: *");
 </script>
 </body>
   
