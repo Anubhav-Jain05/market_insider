@@ -575,8 +575,9 @@ text-align: center;
 .row{
   display: flex;
   justify-content: center;
-  gap: 200px;
-  transition: 0.2s;
+    transition: 0.2s;
+    align-items: center;
+    flex-direction: column;
 }
 .facilities-col{
   transition: 0.2s;
