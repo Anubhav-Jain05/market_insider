@@ -1296,9 +1296,7 @@ background: linear-gradient(90deg, rgba(110,105,105,1) 0%, rgba(35,35,37,1) 74%,
   }
   @media (max-width: 1000px) {
     .footer {
-      max-width: 80%;
-      margin: 0;
-      padding: 0;
+      
       }
     }
     .facilities{
