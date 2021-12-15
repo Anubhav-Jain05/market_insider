@@ -15,6 +15,11 @@ background-image: url(MainBackground.jpg);
     transition: 0.5s;
     
 }
+.col-lg-4 col-sm-4 col-xs-12{
+    position:relative;
+    left:-100px;
+}
+    
 
 ul li a{
     text-decoration: none;
